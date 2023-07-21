@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=no"
     />
-    <title>HorseLegVR</title>
+    <title>HorseLegWeb</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico" />
     <link rel="stylesheet" href="TemplateData/style.css" />
   </head>
@@ -29,17 +29,17 @@
     </div>
     <div id="unity-fullscreen-button" style="display: none"></div>
     <script>
-            const hideFullScreenButton = "1";
+            const hideFullScreenButton = "";
             const buildUrl = "Build";
-            const loaderUrl = buildUrl + "/web.loader.js";
+            const loaderUrl = buildUrl + "/horseWebBuild.loader.js";
             const config = {
-              dataUrl: buildUrl + "/web.data.unityweb",
-              frameworkUrl: buildUrl + "/web.framework.js.unityweb",
-              codeUrl: buildUrl + "/web.wasm.unityweb",
+              dataUrl: buildUrl + "/horseWebBuild.data",
+              frameworkUrl: buildUrl + "/horseWebBuild.framework.js",
+              codeUrl: buildUrl + "/horseWebBuild.wasm",
               streamingAssetsUrl: "StreamingAssets",
-              companyName: "Meangpu",
-              productName: "HorseLegVR",
-              productVersion: "0.2-17-Jan-2023 11:04 AM",
+              companyName: "Sermtat",
+              productName: "HorseLegWeb",
+              productVersion: "0.08-21-Jul-2023 11:59 AM",
             };
 
             const container = document.querySelector("#unity-container");
