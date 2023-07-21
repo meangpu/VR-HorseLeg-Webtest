@@ -29,17 +29,17 @@
     </div>
     <div id="unity-fullscreen-button" style="display: none"></div>
     <script>
-            const hideFullScreenButton = "";
+            const hideFullScreenButton = "1";
             const buildUrl = "Build";
             const loaderUrl = buildUrl + "/horseWebBuild.loader.js";
             const config = {
-              dataUrl: buildUrl + "/horseWebBuild.data",
-              frameworkUrl: buildUrl + "/horseWebBuild.framework.js",
-              codeUrl: buildUrl + "/horseWebBuild.wasm",
+              dataUrl: buildUrl + "/horseWebBuild.data.unityweb",
+              frameworkUrl: buildUrl + "/horseWebBuild.framework.js.unityweb",
+              codeUrl: buildUrl + "/horseWebBuild.wasm.unityweb",
               streamingAssetsUrl: "StreamingAssets",
               companyName: "Sermtat",
               productName: "HorseLegWeb",
-              productVersion: "0.08-21-Jul-2023 11:59 AM",
+              productVersion: "0.12-21-Jul-2023 2:48 PM",
             };
 
             const container = document.querySelector("#unity-container");
